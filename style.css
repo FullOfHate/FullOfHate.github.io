@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "play-regular";
+    src: url("fonts/play-regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    max-width: 1500px;
+    background-image: url(imgs/frozen-2.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: play-regular, sans-serif;
+
+}
+
+::selection {
+    color: black;
+    background: indianred;
+}
+
+li {
+    /*list-style-image: url(imgs/li-icon.png);*/
+    background: url(imgs/li-icon.png) repeat-y -2px 22px;
+    padding-left: 28px;
+    list-style-type: none;
+}
+
+.vir {
+    margin-top: -100px;
+}
+
+hr {
+    color: indianred;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+
+.header-info {
+    font-size: 1.5em;
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+}
+
+.header-info-style {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 0.05em solid indianred;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    /*background-color: rgba(208,246,255,0.91);*/
+    background-image: url(imgs/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-info-style:hover {
+    color: black;
+    text-decoration: black;
+    background: indianred;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    width: auto \9;
+}
+
+.vse-vo-vsem {
+    min-width: 988px;
+    max-width: 70%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0 0 20px 1px gray;
+}
+
+.header, .footer {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 0;
+    border: none;
+    /*background-color: rgba(208,246,255,0.91);*/
+    background-image: url(imgs/footer-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    height: 60px;
+}
+
+.logo {
+    width: 22%;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-top: -10px;
+
+}
+
+
+.logo img:hover {
+    height: 25%;
+}
+
+.opisanie {
+    height: 50%;
+    float: left;
+    font-size: 27px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.info {
+    float: right;
+    width: 220px;
+    height: 50px;
+    margin: 5px 0;
+
+}
+
+.info > p {
+    margin-top: 10px;
+    font-size: 1.6em;
+    word-spacing: 30px;
+}
+
+
+.main-block {
+    border: 2px solid indianred;
+    width: 100%;
+    margin: -1px auto;
+    height: 900px;
+    background-color: rgba(208,246,255,0.91);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-image: url(imgs/fon2.png);
+    background-repeat: repeat;
+    /*background-size: cover;*/
+}
+
+
+
+.left-menu {
+    width: 25%;
+    height: auto;
+    float: left;
+    border-bottom: none;
+
+}
+
+.left-menu > a {
+    color: black;
+    text-decoration: none;
+}
+
+.left-menu > a:hover {
+    color: black;
+}
+
+.left-menu > a:active {
+    color: rgba(184, 8, 0, 0.91);
+    text-decoration: none;
+}
+
+.first-block {
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.first-block:hover {
+    border: none;
+    text-decoration: none;
+    color: indianred;
+}
+
+.first-block > p {
+    color: indianred;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.second-block {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: -9px;
+
+}
+
+.second-block:hover {
+    border: none;
+    border-bottom: 1px solid gray;
+    border-right: 10px solid indianred;
+    text-decoration: none;
+    margin-top: -9px;
+    color: indianred;
+}
+
+
+.second-block > p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.content {
+    max-width: 715px;
+    min-width: 646px;
+    height: auto;
+    margin-top: 18px;
+    font-size: 25px;
+    float: right;
+
+}
+
+.content table {
+    border: 2px solid indianred;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content table th {
+    text-align: left;
+    padding: 4px;
+    border: 2px solid indianred;
+}
+
+.content table td {
+    padding: 4px;
+    border: 2px solid indianred;
+}
+
+.content > a {
+    color: black;
+    text-decoration: none;
+}
+
+.content > a:hover {
+    color: indianred;
+    text-decoration: none;
+}
+
+.content > a:active {
+    color: rgba(184, 8, 0, 0.91);
+    text-decoration: none;
+    transition: all ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+}
+
+.content img {
+    width: 300px;
+    height: 225px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.stranici {
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    word-spacing: 5px;
+    padding-left: 256px;
+
+}
+
+.stranici a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.stranici a:hover {
+     text-decoration: underline;
+ }
+
+.stranici a:active {
+    text-decoration: underline;
+}
+
+.footer {
+    padding-top: 10px;
+}
+
+.mark {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.mark > img {
+    width: 25px;
+    height: auto;
+}
+
+.mark > p {
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+
+.email {
+    margin-left: 400px;
+    margin-top: -2px;
+
+}
+
+.email > img {
+    width: 25px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.email > p {
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.phone {
+    margin-left: 400px;
+    margin-top: -104px;
+
+}
+
+.phone > img {
+    width: 25px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.phone > p {
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.obvodka-foto img {
+    border: 2px solid indianred;
+}
