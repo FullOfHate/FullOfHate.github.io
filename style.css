@@ -305,16 +305,22 @@ img {
 
 .stranici a {
     text-decoration: none;
-    color: black;
     font-size: 22px;
 }
 
 .stranici a:hover {
-     text-decoration: underline;
- }
-
-.stranici a:active {
     text-decoration: underline;
+
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    color: indianred;
+}
+
+.stranici-color {
+    color: black;
 }
 
 .footer {
@@ -374,3 +380,7 @@ img {
 .obvodka-foto img {
     border: 2px solid indianred;
 }
+
+
+
+
